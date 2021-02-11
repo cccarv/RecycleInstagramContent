@@ -96,7 +96,7 @@ def get_and_save_paraphrase(text, number):
 
 
 def main():
-    instagram_data = get_instagram_posts_from_profile("randombestfriend")
+    instagram_data = get_instagram_posts_from_profile("randombestfriendd")
     number = 0
     for ig_post in instagram_data:
         put_filter_on_photo(ig_post["photo_url"], number)
